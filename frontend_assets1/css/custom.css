@@ -1,0 +1,257 @@
+/* 
+
+1. Add your custom Css styles below
+2. Place the this code in your template: 
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+
+#mainMenu nav>ul>li>a {
+  color: #fff;
+  padding: 5px 3px;
+  font-size: 10px;
+}
+
+.theiaStickySidebar {
+  top: -13% !important;
+}
+
+#mainMenu nav>ul>li>a:hover {
+  color: orange;
+}
+
+#header .header-inner #logo a>img, #header #header-wrap #logo a>img {
+  height: 69px;
+}
+
+#header .header-inner #logo, #header #header-wrap #logo {
+  height: 60px;
+}
+
+.grid-articles .post-entry:first-child {
+  width: 75% !important;
+}
+
+.carousel-caption {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  bottom: 0px;
+  z-index: 10;
+  background-image: url(/img/captionbg.png);
+  background-repeat: repeat-x;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left;
+}
+
+.lines, .lines:before, .lines:after {
+  background-color: #f8f9fa;
+}
+
+/* 
+.calendar table {
+  height: 340px !important;
+} */
+
+.contact-form {
+  background: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  /* width: 70%; */
+}
+
+.contact-form .form-control {
+  border-radius: 1rem;
+}
+
+.contact-image {
+  text-align: center;
+}
+
+.contact-image img {
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+
+.contact-form form {
+  padding: 14%;
+}
+
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+
+.contact-form h3 {
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
+}
+
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btnContactSubmit {
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}
+
+.form-group label:not(.error) {
+  color: red;
+  font-size: 10px;
+  text-transform: lowercase;
+  margin-left: 10px;
+}
+
+.validation-invalid-label .validation-valid-label {
+  color: greenyellow;
+}
+
+/* *, ::after, ::before{
+  box-sizing: inherit !important;
+} */
+
+.listAgenda {
+  position: absolute;
+  z-index: 1;
+  background-color: #d82731;
+  width: 96%;
+  height: 100%;
+  padding-right: 10px !important;
+  /* display: none; */
+}
+
+#header.dark .header-inner, #header.dark #header-wrap {
+  height: 50px !important;
+}
+
+#header {
+  line-height: 35px !important;
+  height: 50px;
+}
+
+.footerlist a {
+  color: #a2ae96 !important;
+}
+
+.widget-title {
+  color: #f8a73e;
+}
+
+#footer .copyright-content {
+  min-height: 35px;
+  padding: 3px 0;
+  background-color: #1d1d1d;
+  font-size: 13px;
+  color: white;
+}
+
+#topbar {
+  background-color: #383838 !important;
+}
+
+#header.dark #mainMenu nav>ul>li>a:hover {
+  color: orange;
+}
+
+@media only screen and (max-width: 600px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .mobile-container {
+    padding: 0px !important;
+  }
+  .carousel-inner {
+    height: 300px !important;
+  }
+  .carousel-item img {
+    height: 300px !important;
+  }
+  .carousel-item img {
+    height: 300px !important;
+  }
+  .title_slideshow {
+    font-size: 15px !important;
+  }
+  .tag h4 {
+    font-size: 15px;
+  }
+  #content_1 {
+    padding-right: 0px !important;
+  }
+  .slider-link {
+    padding-right: 0px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
+
+.dropdown-item a{
+  color: black;
+}
